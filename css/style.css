@@ -1,0 +1,19 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #999;
+}
+.imgContainer{
+    width: 1000px;
+    height: 500px;
+    margin: 20px auto;
+    position: relative;
+}
+.modal-header .btn{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
